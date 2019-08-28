@@ -1,0 +1,65 @@
+canvas {
+    border: 2px solid black;
+    background-image: url("canvas-background.png");
+}
+button {
+    position: absolute;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    width: 120px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+.startBtn {
+    position: absolute;
+    top: 365px;
+    left: 569px;
+    border-color: #ff9800;
+    color: orange;
+}
+.startBtn:hover {
+    background-color: #ff9800;
+    color: white;
+}
+.infoBtn {
+    top: 80px;
+}
+button:hover {
+    background: #e7e7e7;
+}
+/* body {
+    background-image: url("background.jpg");
+    background-size: cover;
+} */
+#info {
+    display: none;
+}
+.modal {
+    display: none; 
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 42px;
+    left: 800px;
+    background-color: rgb(100, 100, 100); /* Fallback color */
+    }
+    /* The Close Button */
+    .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    }
+    .close:hover,
+    .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

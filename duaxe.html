@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Racing Loop Game</title>
+
+    <canvas id="game" width="1200" height="600"></canvas>
+
+    <button class="restartBtn" onclick="player = new Character()">Restart</button>
+    <button class="infoBtn" onclick="divInfo.style.display = 'block'">Info</button>
+    <button class="startBtn" onclick="start(); this.style.display = 'none';">START</button>
+        <div class="modal" id="info">
+            <span class="close" onclick='this.parentElement.style.display = "none"'>&times;</span>
+            <img src="Capture.PNG">
+        </div>
+</head>
+<body>
+    <script>
+        let divInfo = document.getElementById("info");
+    </script>
+    <script src="main2.js"></script>
+</body>
+</html>

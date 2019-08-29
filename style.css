@@ -2,6 +2,7 @@ canvas {
     border: 2px solid black;
     background-image: url("canvas-background.png");
 }
+
 button {
     position: absolute;
     border: 2px solid black;
@@ -30,10 +31,7 @@ button {
 button:hover {
     background: #e7e7e7;
 }
-/* body {
-    background-image: url("background.jpg");
-    background-size: cover;
-} */
+
 #info {
     display: none;
 }
@@ -48,7 +46,7 @@ button:hover {
     position: absolute;
     top: 42px;
     left: 800px;
-    background-color: rgb(100, 100, 100); /* Fallback color */
+    background-color: rgb(100, 100, 100); /*Fallback color*/
     }
     /* The Close Button */
     .close {
@@ -62,4 +60,11 @@ button:hover {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+img {
+    display: none;
+}
+.info {
+    display: block;
 }

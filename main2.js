@@ -117,13 +117,13 @@ Character.prototype.processMovement = function(t)
 	}
 	else
 	{
-		this.position[0] = (this.tileFrom[0] * tileW) + ((tileW-this.dimensions[0])/2);
-		this.position[1] = (this.tileFrom[1] * tileH) + ((tileH-this.dimensions[1])/2);
+		this.position[0] = (this.tileFrom[0] * tileW);
+		this.position[1] = (this.tileFrom[1] * tileH);
 
 		if(this.tileTo[0] != this.tileFrom[0])
 		{
 			let diff = (tileW / this.delayMove) * (t-this.timeMoved);
-			this.position[0]+= (this.tileTo[0]<this.tileFrom[0] ? 0 - diff : diff);
+			this.position[0]+= (this.tileTo[0]<this.tileFrom[0] ? 0 - diff : diff); //qua trái trừ , qua phải cộng
 		}
 		if(this.tileTo[1] != this.tileFrom[1])
 		{

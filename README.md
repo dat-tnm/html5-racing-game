@@ -1,1 +1,1 @@
-link https://dat-tnm.github.io/simple-canvas-html-game/
+link https://dat-tnm.github.io/html5-racing-game/
